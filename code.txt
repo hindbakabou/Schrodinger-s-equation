@@ -1,0 +1,36 @@
+\documentclass{article}
+\usepackage{amsmath, amssymb, physics, fancyhdr}
+
+% Custom header
+\pagestyle{fancy}
+\fancyhf{}
+\rfoot{\textit{BKB}}
+
+\begin{document}
+
+\title{\textbf{The Schr\"odinger Equation}}
+\author{}
+\date{}
+\maketitle
+
+\noindent \textbf{Time-dependent Schr\"odinger Equation:}
+\begin{equation}
+    i \hbar \frac{\partial}{\partial t} \Psi(\mathbf{r},t) = \hat{H} \Psi(\mathbf{r},t)
+\end{equation}
+where $\hat{H}$ is the Hamiltonian operator:
+\begin{equation}
+    \hat{H} = -\frac{\hbar^2}{2m} \nabla^2 + V(\mathbf{r},t)
+\end{equation}
+
+\noindent \textbf{Time-independent Schr\"odinger Equation:}
+\begin{equation}
+    \hat{H} \Psi(\mathbf{r}) = E \Psi(\mathbf{r})
+\end{equation}
+where $E$ is the energy eigenvalue.
+
+\vspace{1cm}
+\hrule
+\vspace{0.5cm}
+\textit{Quantum mechanics holds the key to understanding the microscopic universe.}
+
+\end{document}
